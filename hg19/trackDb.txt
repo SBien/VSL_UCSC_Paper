@@ -1,0 +1,641 @@
+################################################
+track Overlay_Crypt_Enhancers
+type bigWig
+container multiWig
+shortLabel 4CryptEnhancers
+longLabel This overlay track graphs signal from four H3K27ac bigWig for normal colon crypt cells
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:30:11
+viewLimits 1:20
+priority 1
+
+track Enhancer_Normal_Colon_Crypt_H3K27ac_C28
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058021/suppl/GSM2058021_C28_H3K27ac.bw
+shortLabel C28_Enhancer
+longLabel Enhancer_Normal_Colon_Crypt_H3K27ac_C28
+parent Overlay_Crypt_Enhancers
+type bigWig
+color 255,0,0
+
+track Enhancer_Normal_Colon_Crypt_H3K27ac_C29
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058022/suppl/GSM2058022_C29_H3K27ac.bw
+shortLabel C29_Enhancer
+longLabel Enhancer_Normal_Colon_Crypt_H3K27ac_C29
+parent Overlay_Crypt_Enhancers
+type bigWig
+color 255,0,0
+
+track Enhancer_Normal_Colon_Crypt_H3K27ac_C37
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058023/suppl/GSM2058023_C37_H3K27ac.bw
+shortLabel C37_Enhancer
+longLabel Enhancer_Normal_Colon_Crypt_H3K27ac_C37
+parent Overlay_Crypt_Enhancers
+type bigWig
+color 255,0,0
+
+track Enhancer_Normal_Colon_Crypt_H3K27ac_Crypt5
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058024/suppl/GSM2058024_Crypt5_H3K27ac.bw
+shortLabel Crypt5_Enhancer
+longLabel Enhancer_Normal_Colon_Crypt_H3K27ac_Crypt5
+parent Overlay_Crypt_Enhancers
+type bigWig
+color 255,0,0
+
+################################################
+track Overlay_CRC_allStage_enhancers
+type bigWig
+container multiWig
+shortLabel 31_CRC_Enhancers
+longLabel This overlay track graphs signal from 31 H3K27ac bigWig for CRC cell lines and CRC cells
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:30:11
+viewLimits 1:20
+priority 1.1
+
+track Enhancer_adenoma_H3K27ac_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058037/suppl/GSM2058037_V411_H3K27ac.bw
+shortLabel Adenoma_Enhancer
+longLabel Enhancer_adenoma_H3K27ac_V411
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_primary_CRC_cells_H3K27ac_17A_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058053/suppl/GSM2058053_CRC_17A_H3K27ac.bw
+shortLabel 17A_Enhancer
+longLabel Enhancer_primary_CRC_cells_H3K27ac_17A
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_primary_CRC_cells_H3K27ac_23A_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058054/suppl/GSM2058054_CRC_23A_H3K27ac.bw
+shortLabel 23A_Enhancer
+longLabel Enhancer_CRC_cell_line_H3K27ac_23A
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_primary_CRC_cells_H3K27ac_6A_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058055/suppl/GSM2058055_CRC_6A_H3K27ac.bw
+shortLabel 6A_Enhancer
+longLabel Enhancer_CRC_cell_line_H3K27ac_6A
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_primary_CRC_cells_H3K27ac_7A_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058056/suppl/GSM2058056_CRC_7A_H3K27ac.bw
+shortLabel 7A_Enhancer
+longLabel Enhancer_CRC_cell_line_H3K27ac_7A
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_SW480_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058027/suppl/GSM2058027_SW480_H3K27ac.bw
+shortLabel SW480_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_SW480
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1009_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058028/suppl/GSM2058028_V1009_H3K27ac.bw
+shortLabel V1009_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1009
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1024_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058029/suppl/GSM2058029_V1024_H3K27ac.bw
+shortLabel V1024_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1024
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1051_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058030/suppl/GSM2058030_V1051_H3K27ac.bw
+shortLabel V1051_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1051
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1058_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058031/suppl/GSM2058031_V1058_H3K27ac.bw
+shortLabel V1058_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1058
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1074_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058032/suppl/GSM2058032_V1074_H3K27ac.bw
+shortLabel V1074_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1074
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1106_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058033/suppl/GSM2058033_V1106_H3K27ac.bw
+shortLabel V1106_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1106
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V206_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058034/suppl/GSM2058034_V206_H3K27ac.bw
+shortLabel V206_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V206
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V429_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058038/suppl/GSM2058038_V429_H3K27ac.bw
+shortLabel V429_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V429
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V432_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058039/suppl/GSM2058039_V432_H3K27ac.bw
+shortLabel V432_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V432
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V456_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058040/suppl/GSM2058040_V456_H3K27ac.bw
+shortLabel V456_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V456
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V481_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058042/suppl/GSM2058042_V481_H3K27ac.bw
+shortLabel V481_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V481
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V703_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058045/suppl/GSM2058045_V703_H3K27ac.bw
+shortLabel V703_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V703
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V940_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058050/suppl/GSM2058050_V940_H3K27ac.bw
+shortLabel V940_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V940
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V968_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058051/suppl/GSM2058051_V968_H3K27ac.bw
+shortLabel V968_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V968
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_stageC_cellLine_H3K27ac_V389_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058035/suppl/GSM2058035_V389_H3K27ac.bw
+shortLabel V389_Enhancer
+longLabel Enhancer_CRC_cell_line_stageC_H3K27ac_V389
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_stageC_cellLine_H3K27ac_V5_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058043/suppl/GSM2058043_V5_H3K27ac.bw
+shortLabel V5_Enhancer
+longLabel Enhancer_CRC_cell_line_stageC_H3K27ac_V5
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_stageD_cellLine_H3K27ac_COLO205_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058047/suppl/GSM2058047_V852_H3K27ac.bw
+shortLabel COLO205_Enhancer
+longLabel Enhancer_CRC_cell_line_stageD_H3K27ac_COLO205
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_stageD_cellLine_H3K27ac_V852_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058047/suppl/GSM2058047_V852_H3K27ac.bw
+shortLabel V852_Enhancer
+longLabel Enhancer_CRC_cell_line_stageD_H3K27ac_V852
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_stageD_cellLine_H3K27ac_V9P_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058052/suppl/GSM2058052_V9P_H3K27ac.bw
+shortLabel V9P_Enhancer
+longLabel Enhancer_CRC_cell_line_stageD_H3K27ac_V9P
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V410_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058036/suppl/GSM2058036_V410_H3K27ac.bw
+shortLabel V410_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V410
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V457_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058041/suppl/GSM2058041_V457_H3K27ac.bw
+shortLabel V457_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V457
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V576_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058044/suppl/GSM2058044_V576_H3K27ac.bw
+shortLabel V576_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V576
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V784_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058046/suppl/GSM2058046_V784_H3K27ac.bw
+shortLabel V784_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V784
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V855_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058048/suppl/GSM2058048_V855_H3K27ac.bw
+shortLabel V855_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V855
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V866_all
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058049/suppl/GSM2058049_V866_H3K27ac.bw
+shortLabel V866_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V866
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 69,139,116
+
+
+
+################################################
+track Normal_enhancers
+type bigWig
+compositeTrack off
+shortLabel Colon crypt_enh
+longLabel Colon crypt enhancer H3K27ac signal
+maxHeightPixels 150:30:11
+visibility full
+priority 9
+
+track Enhancer_Crypt5_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058024/suppl/GSM2058024_Crypt5_H3K27ac.bw
+shortLabel Crypt5_Enhancer
+longLabel Enhancer_normal_crypt_H3K27ac_Crypt5
+parent Normal_enhancers
+type bigWig
+color 255,0,0
+
+track Enhancer_C37_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058023/suppl/GSM2058023_C37_H3K27ac.bw
+shortLabel C37_Enhancer
+longLabel Enhancer_normal_crypt_H3K27ac_C37
+parent Normal_enhancers
+type bigWig
+color 255,0,0
+
+track Enhancer_C29_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058022/suppl/GSM2058022_C29_H3K27ac.bw
+shortLabel C29_Enhancer
+longLabel Enhancer_normal_crypt_H3K27ac_C29
+parent Normal_enhancers
+type bigWig
+color 255,0,0
+
+track Enhancer_C28_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058021/suppl/GSM2058021_C28_H3K27ac.bw
+shortLabel C28_Enhancer
+longLabel Enhancer_normal_crypt_H3K27ac_C28
+parent Normal_enhancers
+type bigWig
+
+
+################################################
+track CRC_enhancers
+type bigWig
+compositeTrack off
+shortLabel CRC_enh
+longLabel CRC_enhancer_H3K27ac_signal
+maxHeightPixels 150:30:11
+visibility full
+priority 11
+
+track Enhancer_V411_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058037/suppl/GSM2058037_V411_H3K27ac.bw
+shortLabel V411_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V411
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_HCT116_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058026/suppl/GSM2058026_HCT116_H3K27ac.bw
+shortLabel HCT116_Enhancer
+longLabel Enhancer_CRC_H3K27ac_HCT116
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_SW480_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058027/suppl/GSM2058027_SW480_H3K27ac.bw
+shortLabel SW480_Enhancer
+longLabel Enhancer_CRC_H3K27ac_SW480
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V1009_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058028/suppl/GSM2058028_V1009_H3K27ac.bw
+shortLabel V1009_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V1009
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V1024_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058029/suppl/GSM2058029_V1024_H3K27ac.bw
+shortLabel V1024_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V1024
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V1051_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058030/suppl/GSM2058030_V1051_H3K27ac.bw
+shortLabel V1051_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V1051
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V1058_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058031/suppl/GSM2058031_V1058_H3K27ac.bw
+shortLabel V1058_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V1058
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V1074_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058032/suppl/GSM2058032_V1074_H3K27ac.bw
+shortLabel V1074_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V1074
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V1106_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058033/suppl/GSM2058033_V1106_H3K27ac.bw
+shortLabel V1106_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V1106
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V206_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058034/suppl/GSM2058034_V206_H3K27ac.bw
+shortLabel V206_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V206
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V429_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058038/suppl/GSM2058038_V429_H3K27ac.bw
+shortLabel V429_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V429
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V432_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058039/suppl/GSM2058039_V432_H3K27ac.bw
+shortLabel V432_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V432
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V456_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058040/suppl/GSM2058040_V456_H3K27ac.bw
+shortLabel V456_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V456
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V481_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058042/suppl/GSM2058042_V481_H3K27ac.bw
+shortLabel V481_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V481
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V703_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058045/suppl/GSM2058045_V703_H3K27ac.bw
+shortLabel V703_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V703
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V940_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058050/suppl/GSM2058050_V940_H3K27ac.bw
+shortLabel V940_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V940
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V968_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058051/suppl/GSM2058051_V968_H3K27ac.bw
+shortLabel V968_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V968
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V389_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058035/suppl/GSM2058035_V389_H3K27ac.bw
+shortLabel V389_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V389
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V5_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058043/suppl/GSM2058043_V5_H3K27ac.bw
+shortLabel V5_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V5
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_COLO205_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058025/suppl/GSM2058025_COLO205_H3K27ac.bw
+shortLabel COLO205_Enhancer
+longLabel Enhancer_CRC_H3K27ac_COLO205
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V852_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058047/suppl/GSM2058047_V852_H3K27ac.bw
+shortLabel V852_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V852
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V9P_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058052/suppl/GSM2058052_V9P_H3K27ac.bw
+shortLabel V9P_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V9P
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V410_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058036/suppl/GSM2058036_V410_H3K27ac.bw
+shortLabel V410_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V410
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V457_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058041/suppl/GSM2058041_V457_H3K27ac.bw
+shortLabel V457_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V457
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V576_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058044/suppl/GSM2058044_V576_H3K27ac.bw
+shortLabel V576_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V576
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V784_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058046/suppl/GSM2058046_V784_H3K27ac.bw
+shortLabel V784_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V784
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V855_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058048/suppl/GSM2058048_V855_H3K27ac.bw
+shortLabel V855_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V855
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_V866_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058049/suppl/GSM2058049_V866_H3K27ac.bw
+shortLabel V866_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V866
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_17A_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058053/suppl/GSM2058053_CRC_17A_H3K27ac.bw
+shortLabel CRC_17A_Enhancer
+longLabel Enhancer_CRC_H3K27ac_17A
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_23A_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058054/suppl/GSM2058054_CRC_23A_H3K27ac.bw
+shortLabel CRC_23A_Enhancer
+longLabel Enhancer_CRC_H3K27ac_23A
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_6A_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058055/suppl/GSM2058055_CRC_6A_H3K27ac.bw
+shortLabel CRC_6A_Enhancer
+longLabel Enhancer_CRC_H3K27ac_6A
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+track Enhancer_7A_H3K27ac
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058056/suppl/GSM2058056_CRC_7A_H3K27ac.bw
+shortLabel CRC_7A_Enhancer
+longLabel Enhancer_CRC_H3K27ac_7A
+parent CRC_enhancers
+type bigWig
+color 69,139,116
+
+################################################
+track Colon_CRC_repressors
+type bigWig
+compositeTrack off
+shortLabel Rep
+longLabel Colon_CRC_repressor_H3K27me3_signal
+maxHeightPixels 150:30:11
+visibility full
+priority 11
+
+track Repressor_V410_H3K27me3
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058058/suppl/GSM2058058_V410_H3K27me3.bw
+shortLabel V410_Repressor
+longLabel Repressor_CRC_H3K27me3_V411
+parent Colon_CRC_repressors
+type bigWig
+color 218,183,183
+
+track Repressor_C28_H3K27me3
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058057/suppl/GSM2058057_C28_H3K27me3.bw
+shortLabel C28_Repressor
+longLabel Repressor_Normal_Crypt_H3K27me3_C28
+parent Colon_CRC_repressors
+type bigWig
+color 218,218,183

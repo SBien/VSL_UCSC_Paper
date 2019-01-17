@@ -1,0 +1,5 @@
+hub Colon_epigenomes_VSL
+shortLabel Colon_VSL
+longLabel Colon_VSL
+genomesFile genomes.txt
+email stephannbien@gmail.com
